@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(230, 222, 222);
+    font-family:  Helvetica, sans-serif;
+    
+}
+
+#header{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.747);
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.644);   
+}
+#header h1{
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgb(245, 8, 8);
+    color: #fff;
+    font-weight: bold;
+    margin: 0 auto;
+    font-size: 30pt;
+}
+#header img{
+    width: 150px;
+    height: 80px;
+}
+.artigo h2{
+    color: blue;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px;
+    margin: 0 auto;
+}
+#p1{
+     color: rgb(94, 58, 226);
+}
+#p2{
+    color: rgb(228, 36, 10);
+}
+#p3{
+    color: rgb(103, 124, 9);
+}
+.menu li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.menu li a{
+    display: block;
+    padding: 20px;
+}
+ a{
+    text-decoration: none;
+    color: rgb(243, 232, 232);
+    transition: all 500ms ease-in-out;
+}
+a:hover{
+    background-color: crimson;
+    border-radius: 10px;
+}
+#footer{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+   padding: 25px;
+}
+.btnInicio{
+    font-size: 15pt;
+    width: 120px;
+    padding: 10px;
+    background-color: rgb(94, 58, 226);
+    color: #fff;
+    border-radius: 8px;
+    transition: all 600ms ease-in-out;
+}
+.btnInicio:hover{
+    background-color: blue;
+}
+.galeria img{
+    display: block;
+    max-width: 100%;
+    width: 500px;
+    height:70vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.61);
+    border-radius: 0 25px;
+}
+   
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    gap: 20px;
+    background-color: rgb(77, 80, 248);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.678); 
+    
+}
+.flex > div{
+    flex: 1 1 200px;
+    margin: 15px;
+    
+    
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(193, 193, 252);
+    max-width: 1200px;
+    box-shadow:0 0 15px rgba(0, 0, 0, 0.678);
+    margin: auto;
+    justify-content: center;
+    
+}
+.content article{
+  
+    margin: 15px; 
+}
+article.artigo{
+    display: flex;
+   flex-wrap: wrap;
+   margin: 0 auto;
+   text-align: center;
+   padding:50px;
+}
+article.artigo p{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15pt;
+    margin: auto;
+   
+}
+.content h1{
+    margin-top: 30px;
+    text-transform: uppercase;
+    color: rgb(77, 80, 248);
+    font-size:50px;
+    font-weight: bolder;
+}
